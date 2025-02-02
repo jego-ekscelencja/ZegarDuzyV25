@@ -1,0 +1,17 @@
+../Core/Src/display.c:31:9:charToSegment	24
+../Core/Src/display.c:102:6:HAL_SPI_TxCpltCallback	2
+../Core/Src/display.c:113:6:Send192_struct	2
+../Core/Src/display.c:136:6:ClearClockBits	1
+../Core/Src/display.c:141:6:SetSecondLedSingle	1
+../Core/Src/display.c:150:6:SetSecondLedAccumulating	3
+../Core/Src/display.c:162:6:SetSecondLedAccumulating2	2
+../Core/Src/display.c:173:6:SetDots	2
+../Core/Src/display.c:182:6:SetSecondsDots	1
+../Core/Src/display.c:192:6:SetHourRing	3
+../Core/Src/display.c:207:6:SetHoursRing	1
+../Core/Src/display.c:218:6:SetTime7Seg	2
+../Core/Src/display.c:255:6:UpdateAllDisplays	3
+../Core/Src/display.c:290:6:SetPWMValue	2
+../Core/Src/display.c:297:6:SetPWMPercent	1
+../Core/Src/display.c:306:6:SetPWMPercentGamma	1
+../Core/Src/display.c:316:6:FadeEffect	4
