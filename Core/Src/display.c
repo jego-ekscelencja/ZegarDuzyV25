@@ -9,9 +9,6 @@
 #include "main.h"     // Dostęp do htim1, hspi1, GPIO do latcha itd.
 #include "slider.h"
 
-// Można tu zadeklarować: extern SPI_HandleTypeDef hspi1; extern TIM_HandleTypeDef htim1;
-// Upewnij się, że w main.h są te deklaracje
-
 volatile bool spiTransferInProgress = false;  // Flaga transmisji SPI
 static uint8_t spiTxBuffer[24];  // Bufor na 192 bity (24 bajty)
 // static Bits192 regValue;  // Przechowuje 192 bity rozbite na 12×16
