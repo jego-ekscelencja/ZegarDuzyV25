@@ -363,7 +363,6 @@ void SetSecondLedEvenOdd(MyClockBitFields* clockBits, uint8_t second, uint8_t mi
     }
 }
 
-/* Alternative SetDots implementation (commented out)
 void SetDots(MyClockBitFields* clockBits, bool dot1, bool dot2)
 {
   uint64_t val = 0ULL;
